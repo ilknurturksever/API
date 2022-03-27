@@ -28,7 +28,7 @@ public class GetRequest04 {
                                accept(ContentType.JSON). //"application/JSON" da kullanlabilir
                             when().
                                get("https://dummy.restapiexample.com/api/v1/employees");
-               response.prettyPrint();
+             
 
                response.
                        then().
