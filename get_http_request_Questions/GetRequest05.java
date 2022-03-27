@@ -23,7 +23,7 @@ public class GetRequest05 {
         Response response = given().
                         when().
                 get("https://restful-booker.herokuapp.com/booking/5");
-        response.prettyPrint();
+        
 
         response.
                 then().
